@@ -1,0 +1,16 @@
+- link to practice
+
+https://www.db-fiddle.com
+
+- Create new table
+
+CREATE TABLE test0(
+catid SMALLINT NOT NULL DEFAULT 0,
+catgroup varchar(10) DEFAULT 'Special',
+catname varchar(10) DEFAULT 'Other',
+catdesc varchar(50) DEFAULT 'Special events',
+PRIMARY key(catid))
+
+- DB Browser for SQLite
+
+https://sqlitebrowser.org/dl/
